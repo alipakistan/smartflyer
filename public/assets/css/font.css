@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Canela";
+  src: url("../fonts/../fonts/Canela-Light.eot");
+  src: url("../fonts/Canela-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Canela-Light.woff2") format("woff2"),
+    url("../fonts/Canela-Light.woff") format("woff"),
+    url("../fonts/Canela-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("../fonts/Canela-Black.eot");
+  src: url("../fonts/Canela-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Canela-Black.woff2") format("woff2"),
+    url("../fonts/Canela-Black.woff") format("woff"),
+    url("../fonts/Canela-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("../fonts/Canela-Medium.eot");
+  src: url("../fonts/Canela-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Canela-Medium.woff2") format("woff2"),
+    url("../fonts/Canela-Medium.woff") format("woff"),
+    url("../fonts/Canela-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("../fonts/Canela-Bold.eot");
+  src: url("../fonts/Canela-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Canela-Bold.woff2") format("woff2"),
+    url("../fonts/Canela-Bold.woff") format("woff"),
+    url("../fonts/Canela-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("../fonts/Canela-Thin.eot");
+  src: url("../fonts/Canela-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Canela-Thin.woff2") format("woff2"),
+    url("../fonts/Canela-Thin.woff") format("woff"),
+    url("../fonts/Canela-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TradeGothic LT";
+  src: url("../fonts/TradeGothicLT-Bold.eot");
+  src: url("../fonts/TradeGothicLT-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TradeGothicLT-Bold.woff2") format("woff2"),
+    url("../fonts/TradeGothicLT-Bold.woff") format("woff"),
+    url("../fonts/TradeGothicLT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Canela";
+  src: url("../fonts/Canela-Regular.eot");
+  src: url("../fonts/Canela-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Canela-Regular.woff2") format("woff2"),
+    url("../fonts/Canela-Regular.woff") format("woff"),
+    url("../fonts/Canela-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TradeGothic LT";
+  src: url("../fonts/TradeGothicLT.eot");
+  src: url("../fonts/TradeGothicLT.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TradeGothicLT.woff2") format("woff2"),
+    url("../fonts/TradeGothicLT.woff") format("woff"),
+    url("../fonts/TradeGothicLT.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TradeGothic LT Extended";
+  src: url("../fonts/TradeGothicLT-Extended.eot");
+  src: url("../fonts/TradeGothicLT-Extended.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TradeGothicLT-Extended.woff2") format("woff2"),
+    url("../fonts/TradeGothicLT-Extended.woff") format("woff"),
+    url("../fonts/TradeGothicLT-Extended.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TradeGothic LT";
+  src: url("../fonts/TradeGothicLT-Light.eot");
+  src: url("../fonts/TradeGothicLT-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TradeGothicLT-Light.woff2") format("woff2"),
+    url("../fonts/TradeGothicLT-Light.woff") format("woff"),
+    url("../fonts/TradeGothicLT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}

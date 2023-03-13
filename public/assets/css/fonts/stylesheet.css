@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Light.eot');
+    src: url('Canela-Light.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Light.woff2') format('woff2'),
+        url('Canela-Light.woff') format('woff'),
+        url('Canela-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Black.eot');
+    src: url('Canela-Black.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Black.woff2') format('woff2'),
+        url('Canela-Black.woff') format('woff'),
+        url('Canela-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Medium.eot');
+    src: url('Canela-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Medium.woff2') format('woff2'),
+        url('Canela-Medium.woff') format('woff'),
+        url('Canela-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Bold.eot');
+    src: url('Canela-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Bold.woff2') format('woff2'),
+        url('Canela-Bold.woff') format('woff'),
+        url('Canela-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Thin.eot');
+    src: url('Canela-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Thin.woff2') format('woff2'),
+        url('Canela-Thin.woff') format('woff'),
+        url('Canela-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TradeGothic LT';
+    src: url('TradeGothicLT-Bold.eot');
+    src: url('TradeGothicLT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('TradeGothicLT-Bold.woff2') format('woff2'),
+        url('TradeGothicLT-Bold.woff') format('woff'),
+        url('TradeGothicLT-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Regular.eot');
+    src: url('Canela-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Regular.woff2') format('woff2'),
+        url('Canela-Regular.woff') format('woff'),
+        url('Canela-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TradeGothic LT';
+    src: url('TradeGothicLT.eot');
+    src: url('TradeGothicLT.eot?#iefix') format('embedded-opentype'),
+        url('TradeGothicLT.woff2') format('woff2'),
+        url('TradeGothicLT.woff') format('woff'),
+        url('TradeGothicLT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TradeGothic LT Extended';
+    src: url('TradeGothicLT-Extended.eot');
+    src: url('TradeGothicLT-Extended.eot?#iefix') format('embedded-opentype'),
+        url('TradeGothicLT-Extended.woff2') format('woff2'),
+        url('TradeGothicLT-Extended.woff') format('woff'),
+        url('TradeGothicLT-Extended.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TradeGothic LT';
+    src: url('TradeGothicLT-Light.eot');
+    src: url('TradeGothicLT-Light.eot?#iefix') format('embedded-opentype'),
+        url('TradeGothicLT-Light.woff2') format('woff2'),
+        url('TradeGothicLT-Light.woff') format('woff'),
+        url('TradeGothicLT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,1579 @@
+body {
+    font-family: "Canela";
+  }
+  .main-wrapper {
+    overflow: hidden;
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  header {
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999999;
+    background-color: #fff;
+  }
+  .banner-sec {
+    margin: 50px 0 0 0;
+  }
+
+  .radius-one-side {
+    border-radius: 0px 0px 280px 0px;
+  }
+  .radius-two-side {
+    border-radius: 199.5px 199.5px 0px 0px;
+  }
+  .nav-link {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #1d3c86 !important;
+    font-family: "TradeGothic LT";
+    font-weight: bold;
+    margin: 0 2px;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .text-dark-green {
+    color: #1d3c86 !important;
+  }
+  .right-header-box strong {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #1d3c86;
+    font-family: "TradeGothic LT";
+  }
+  .right-header-box span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    font-feature-settings: "liga" off;
+    color: #1d3c86;
+    font-family: "TradeGothic LT";
+  }
+  h1 {
+    font-family: "Canela";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 63px;
+    line-height: 84px;
+    letter-spacing: 0.03em;
+  }
+  .banner-bottom-nav .active a {
+    color: #1d3c86;
+  }
+  .banner-heading {
+    bottom: 105px;
+    left: 186px;
+  }
+  .banner-heading p {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-family: "TradeGothic LT";
+  }
+
+  .banner-bottom-nav ul li a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #000;
+    text-decoration: none;
+    font-family: "TradeGothic LT";
+  }
+  .banner-bottom-nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  .banner-bottom-nav .active {
+    color: #1d3c86;
+    border-top: 8px solid #1d3c86;
+  }
+  .banner-bottom-nav li {
+    border-top: 8px solid #fff;
+    border-bottom: 8px solid #fff;
+    display: flex;
+    align-items: center;
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 43px;
+    color: #000000;
+  }
+  .travelex-box-one h4 {
+    font-size: 28px;
+    line-height: 40px;
+    color: #000000;
+    margin: 0;
+    font-weight: 300;
+  }
+  .travelex-box-one span {
+    font-weight: 300;
+    font-size: 25px;
+    color: #1d3c86;
+    margin: 7px 0 0 0;
+    display: block;
+  }
+  .travelex-box-one button {
+    background: #1d3c86;
+    color: #fff;
+    padding: 10px 60px;
+    font-size: 14px;
+    border: none;
+    font-family: "TradeGothic LT";
+    font-weight: 700;
+    letter-spacing: 0.12em;
+  }
+
+  .travelex-logo {
+    width: 260px;
+  }
+  .travelex-box {
+    background: rgba(29, 60, 134, 0.02);
+    padding: 30px 30px;
+    color: #1d3c86;
+  }
+  .travelex-box h4 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1d3c86;
+  }
+
+  .travelex-box-two h3 {
+    font-weight: 300;
+    font-size: 33px;
+    color: #000000;
+    font-family: canela;
+  }
+  .banner-bottom-nav {
+    background: #ffffff;
+    box-shadow: 0px 4px 144px rgba(0, 0, 0, 0.2);
+    margin-bottom: 130px;
+  }
+
+  .primary-contact img {
+    width: 53px;
+    height: 53px;
+  }
+  .primary-contact h5 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    margin: 0;
+  }
+  .primary-contact p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 14px;
+    text-transform: lowercase;
+    color: #000;
+    font-family: "TradeGothic LT";
+    margin: 4px 0;
+  }
+  .primary-contact span {
+    font-size: 15px;
+    color: #999;
+    font-family: canela;
+  }
+  .primary-contact {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.09);
+    overflow: hidden;
+  }
+  .travelex-section {
+    padding-bottom: 130px;
+  }
+  .smartflyer-sec {
+    background-color: #1d3c86;
+    padding: 100px 0 0 0;
+    color: #fff;
+  }
+  .assests-sec {
+    padding: 100px 0;
+  }
+  /* .smartflyer-heading {
+    padding: 200px 0;
+  } */
+
+  .slyer-plan {
+    bottom: -30px;
+    right: 0;
+  }
+  .slyer-plan img {
+    width: 100%;
+  }
+  .smartflyer-heading {
+    padding-left: 120px;
+    padding-bottom: 190px;
+  }
+  .smartflyer-heading p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.05em;
+  }
+  .primary-contact2 span {
+    font-size: 12px;
+    max-width: 66%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-family: "TradeGothic LT";
+    line-height: 24px;
+  }
+  .place-box {
+    padding: 0 9px;
+  }
+  .place-heading h4 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+    font-family: "TradeGothic LT";
+    font-weight: 700;
+  }
+  .place-heading {
+    position: absolute;
+    bottom: 27px;
+    left: 60px;
+  }
+  .place-heading span {
+    font-size: 13px;
+    line-height: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "TradeGothic LT";
+    font-weight: 700;
+  }
+  .places-sec img {
+    width: 100%;
+    display: block;
+  }
+  .places-sec {
+    padding: 90px 0;
+  }
+  .place-box:before {
+    content: "";
+    position: absolute;
+    width: 96%;
+    height: 100%;
+    background-color: #33333352;
+  }
+  .places-sec h2 {
+    font-family: "Canela";
+    font-weight: 300;
+    font-size: 33px;
+    color: #000000;
+  }
+
+  footer {
+    background-color: #062060;
+    color: #fff;
+    padding: 80px 0 110px 0;
+  }
+  .footer-box-two ul li a {
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 24px;
+
+    /* or 200% */
+    letter-spacing: 0.03em;
+  }
+  .footer-box-two ul {
+    padding: 0;
+    margin: 0;
+  }
+  .footer-box-two ul li {
+    list-style-type: none;
+    margin: 9px 0;
+  }
+  .footer-box-two h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-family: "TradeGothic LT";
+  }
+  .footer-box p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    color: #ffffff;
+    opacity: 0.34;
+    margin: 40px 0 0 0;
+    padding: 0 160px 0 0;
+    font-family: "TradeGothic LT";
+  }
+  .social-icon {
+    margin: 100px 0 0 0;
+  }
+  .social-icon img {
+    margin: 0 10px 0 0;
+  }
+  section.banner-sec img {
+    width: 100%;
+    display: block;
+  }
+
+  section.banner-two-sec img {
+    width: 100%;
+    display: block;
+  }
+  .ribbon-logo {
+    width: 210px;
+    margin: 40px 0 0 0;
+  }
+  .smal-description {
+    font-size: 18px !important;
+    line-height: 34px !important;
+    letter-spacing: 0.05em;
+    padding: 0 120px 0 0px;
+    font-weight: 300;
+  }
+
+  .overview-list {
+    padding: 0 0 0 20px;
+    margin: 0 0 80px 0;
+  }
+  .overview-list li {
+    font-family: "Canela";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    padding: 0 130px 0 0;
+  }
+  .aero-logo {
+    width: 200px;
+  }
+  .aero-img-sec img {
+    width: 100%;
+    display: block;
+  }
+
+  .assest-box-heading p {
+    font-family: "Canela";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 39px;
+    line-height: 60px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding: 0 400px 0 0px;
+    margin: 10px 0 60px 0;
+  }
+  .assest-box-heading span {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "TradeGothic LT";
+    color: #000;
+  }
+  .curise-list li {
+    padding: 0 30px 0 0 !important;
+  }
+  .seabourn-img-sec {
+    padding: 90px 0 0 0;
+  }
+
+  .promo-details span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.4;
+  }
+
+  .promo-details p {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+    padding: 0;
+  }
+  .promo-details h5 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    padding: 0 10px 0 0px;
+    margin: 15px 0;
+  }
+  .promo-details button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1d3c86;
+    background: unset;
+    border: none;
+    display: flex;
+    align-items: center;
+  }
+  .promo-details button img {
+    margin: 3px 0 0 10px;
+  }
+  .promo-details {
+    padding-top: 30px;
+  }
+  .promo-images img {
+    width: 100%;
+  }
+
+  .accordion-button {
+    font-size: 16px !important;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #1d3c86 !important;
+    opacity: 0.8;
+    background-color: unset !important;
+    border: none !important;
+    text-align: left !important;
+    padding: 12px 0 !important;
+  }
+  .accordion-item {
+    border: unset;
+  }
+  .accordion-button:focus {
+    box-shadow: unset !important;
+  }
+  .accordion-body {
+    padding: 0 0 20px 0;
+    font-family: "Canela";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 0 18px 0;
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: unset !important;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background: none;
+  }
+  .accordion-button::after {
+    display: none;
+  }
+  .accordian-arrow {
+    right: 0;
+  }
+  /* .accordion-button.collapsed {
+    margin: 0 0 30px 0;
+  } */
+  .accordion-button.collapsed {
+    color: #000 !important;
+  }
+  .accordion {
+    width: 90%;
+  }
+  .curise-list.overview-list li a {
+    color: #1d3c86;
+  }
+  .opecity {
+    opacity: 0.5;
+  }
+  .adventure-promo-sec {
+    padding: 100px 0 50px 0;
+  }
+  .articals-links {
+    padding: 250px 0 0 0;
+  }
+
+  .check-in-main {
+    padding: 40px 115px 0 150px;
+    height: 449px;
+  }
+  .img-height-small {
+    height: 444px;
+  }
+  .check-in-heading span {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "TradeGothic LT";
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.24em;
+  }
+
+  .check-in-heading h4 {
+    font-weight: 300;
+    font-size: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin: 3px 0 16px 0;
+  }
+  .check-in-box img {
+    width: 60px;
+    height: 60px;
+  }
+  .check-in-box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .check-in-main h5 {
+    text-transform: uppercase;
+    color: #1d3c86;
+    margin: 30px 0 62px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.24em;
+    font-family: "TradeGothic LT";
+  }
+
+  .category-sec span {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    padding: 80px 0;
+    font-family: "TradeGothic LT";
+  }
+  .category-sec {
+    padding: 80px 0;
+  }
+  .category-sec p {
+    padding: 0 260px 0 0;
+  }
+
+  .smartflyer-heading span {
+    font-family: "TradeGothic LT";
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 0.14em;
+  }
+  .smartflyer-heading h4 {
+    font-family: "TradeGothic LT";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .smartflyer-heading h3 {
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 84px;
+
+    letter-spacing: 0.03em;
+  }
+
+  .assests-sec h3 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+
+    color: #000000;
+  }
+  .navbar-light .navbar-toggler {
+    color: #1d3c86;
+    border: none;
+    padding: 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: unset !important;
+  }
+  .banner-heading strong {
+    font-family: "TradeGothic LT";
+    font-weight: 700 !important;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+  .height-img {
+    height: 892px;
+  }
+
+  /* new page css */
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .authenticated-banner button {
+    font-family: "Trade Gothic LT Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #d9d9d9;
+    background-color: unset;
+    border: 1px solid;
+    padding: 20px 30px;
+    display: block;
+    margin: 40px 0 0 0;
+  }
+  .authenticated-banner {
+    bottom: 0;
+    top: 50%;
+    transform: translate(0, -48%);
+  }
+  .authenticated-banner p {
+    font-size: 14px;
+  }
+  .authenticated-banner span {
+    width: 690px;
+    display: block;
+    margin: 31px 0 0 0;
+  }
+
+  .hotel-sec h2 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    color: #1d3c86;
+  }
+  .hotel-sec h3 {
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    color: #1d3c86;
+    font-weight: 300;
+    margin: 50px 0 0 0;
+  }
+
+  .swiper {
+    margin: 70px 0;
+  }
+  .hotel-slide-heading span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.4;
+    font-family: "TradeGothic LT";
+  }
+  .hotel-slide-heading h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    color: #000000;
+  }
+  .hotel-slide-heading p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+  }
+  .hotel-slide-heading img {
+    width: 18px;
+    margin: 0 10px 0 0px;
+  }
+  .hotel-slide-heading strong {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "TradeGothic LT";
+  }
+  .hotel-slide-heading {
+    text-align: left;
+    padding: 21px 0;
+  }
+
+  .banner-bottom-heading {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+  .banner-bottom-heading img {
+    width: 140px !important;
+    height: 57px;
+    border-right: 1px solid #fff;
+    margin: 0 20px;
+    padding: 0px 10px;
+  }
+  .banner-bottom-heading span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "TradeGothic LT";
+  }
+  .banner-bottom-heading p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+  }
+
+  .hotel-promotion h3 {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    color: #1d3c86;
+    margin: 0 0 50px 0;
+  }
+  .hotel-promotion span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #1d3c86;
+    font-family: "TradeGothic LT";
+    margin: 0px 0 20px 0;
+    display: block;
+  }
+  .hotel-promotion-heading span {
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    opacity: 0.4;
+    margin: 0;
+  }
+  .hotel-promotion-heading h4 {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1d3c86;
+  }
+  .hotel-promotion-heading {
+    padding: 0 0 0 25px;
+  }
+  .industrt-wide-sec .hotel-promotion-heading {
+    padding: 20px 20px 0 0;
+  }
+  .industrt-wide-sec img {
+    width: 90%;
+  }
+  .industrt-wide-sec {
+    padding: 60px 0 60px 0;
+  }
+  .partner-box {
+    background: rgba(213, 210, 210, 0.1);
+    padding: 0 55px;
+    height: 130px;
+  }
+  .partner-box img {
+    object-fit: unset;
+  }
+  .swiper.partner1 .swiper-wrapper {
+    align-items: center;
+    display: flex;
+  }
+  .swiper.partner1 {
+    padding: 0 67px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #000;
+    font-size: 20px;
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    background-position: center;
+    background-size: cover;
+    width: 16px;
+    content: url(/assets/images/destinations/arrow-right-slide.svg);
+  }
+  .swiper-button-prev::after,
+  .swiper-rtl .swiper-button-next::after {
+    transform: rotate(180deg);
+  }
+
+  .frequently-sec img {
+    width: 100%;
+  }
+  .frequently-images-box img {
+    margin: 0 0 28px 0;
+  }
+  .frequently-sec .place-heading {
+    left: 20px;
+    bottom: 41px;
+  }
+  .frequently-sec h2 {
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: 0.03em;
+    color: #1d3c86;
+    margin: 0 0 50px 0;
+  }
+  .frequently-sec {
+    background: rgba(212, 210, 210, 0.1);
+    padding: 60px 0;
+  }
+  .hotel-sec {
+    padding: 70px 0 40px;
+  }
+
+  sup {
+    background: #1d3c86;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "TradeGothic LT";
+    padding: 1px 10px;
+    margin: 0 0 0 10px;
+    text-align: center;
+  }
+  .industrt-wide-sec h6 {
+    font-family: "TradeGothic LT";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: #1d3c86;
+    margin: 0 0 20px 0;
+  }
+  .percent-box h5 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin: 0;
+  }
+  /* .swiper-wrapper .swiper-slide:last-child {
+    opacity: 0.2;
+  } */
+
+  .modal-body h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 48px;
+    color: #242424;
+  }
+  .modal-body form label {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #000;
+    font-family: "TradeGothic LT";
+    margin: 0;
+  }
+  .modal-body form input {
+    opacity: 0.6;
+    border-bottom: 1px solid #000 !important;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-radius: 0 !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    font-family: "TradeGothic LT";
+    padding: 17px 31px;
+  }
+  input::-webkit-input-placeholder {
+    /* Edge */
+    color: #000;
+  }
+  .input-group.has-validation {
+    margin: 10px 0px 0px 0;
+  }
+  input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #000;
+  }
+  .form-control.is-invalid,
+  .was-validated .form-control:invalid {
+    background-image: url(/assets/images/destinations/user-red.svg);
+    border-bottom: 1px solid #f02323 !important;
+    background-position: left 4px;
+    background-repeat: no-repeat;
+    height: 25px;
+    background-size: unset !important;
+  }
+  .hide-show::after {
+    content: "Show";
+    position: absolute;
+    right: 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-family: "TradeGothic LT";
+    color: #000;
+    bottom: 12px;
+    opacity: 0.6;
+  }
+  .was-validated .hide-show::after {
+    color: #f02323 !important;
+    content: "Hide";
+  }
+  .was-validated label {
+    color: #f02323 !important;
+  }
+  /* .modal.show .modal-dialog {
+    transform: translate(0, 50%);
+  } */
+  .form-control.is-invalid:focus,
+  .was-validated .form-control:invalid:focus {
+    box-shadow: unset !important;
+  }
+
+  .form-control.is-invalid,
+  .was-validated .form-control.input-img-two:invalid {
+    background-image: url(/assets/images/destinations/lock-red.svg);
+  }
+  .input-img-one {
+    background-image: url(/assets/images/destinations/user-icon.svg);
+    background-position: left 4px;
+    background-repeat: no-repeat;
+    height: 25px;
+  }
+  .input-img-two {
+    background-image: url(/assets/images/destinations/lock-icon.svg);
+  }
+  input::placeholder {
+    color: #000;
+    opacity: 0.8 !important;
+  }
+  .form-check-input {
+    border: 1px solid #000 !important;
+    padding: 0 !important;
+  }
+  .form-check-label {
+    color: rgba(0, 0, 0, 0.7) !important;
+    opacity: 0.7;
+  }
+  .borde-bottom {
+    /* border-bottom: 1px solid #000 !important; */
+  }
+  .form-control:focus {
+    border-color: unset;
+
+    box-shadow: unset;
+  }
+  form .btn.btn-primary {
+    background: #1d3c86;
+    border: none;
+    padding: 12px 38px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    font-family: "TradeGothic LT";
+    display: block;
+    margin: 20px 0 20px auto;
+  }
+  .modal-body {
+    padding: 20px 30px;
+  }
+
+  .forget-pass {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #1d3c86;
+    font-family: "TradeGothic LT";
+  }
+
+
+  .dropdown-menu li a{
+    background-color: #ffffff;
+    color: red;
+    font-family: "TradeGothic LT";
+  }
+
+  /* responsive */
+
+  @media only screen and (min-width: 1500px) {
+    .navbar-nav {
+      width: 75%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+
+  @media only screen and (max-width: 1500px) and (min-width: 1400px) {
+    a.navbar-brand img {
+      width: 165px;
+    }
+
+    .right-header-box .me-5 {
+      margin-right: 7px !important;
+    }
+  }
+  @media only screen and (max-width: 1399px) {
+    ul.navbar-nav {
+      padding: 20px 0 0 0;
+    }
+    .nav-link {
+      font-size: 16px;
+      text-align: left;
+      padding: 14px 0;
+    }
+    .check-in-main {
+      padding: 40px 55px 0 60px;
+    }
+  }
+  @media only screen and (max-width: 1260px) {
+    .hotel-sec {
+      padding: 50px 0 20px 0px;
+    }
+    .percent-box h5 {
+      font-size: 23px;
+    }
+    .banner-heading {
+      bottom: 75px;
+      left: 106px;
+    }
+    .place-heading {
+      left: 30px;
+    }
+    .assest-box-heading p {
+      font-size: 32px;
+
+      padding: 0 200px 0 0px;
+    }
+    .banner-bottom-nav ul li a {
+      font-weight: 700;
+      font-size: 12px;
+      min-width: 0;
+      display: block;
+    }
+    .smartflyer-heading {
+      padding-left: 44px;
+    }
+    .industrt-wide-sec img {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .authenticated-banner {
+      transform: translate(0, -84%);
+    }
+    .banner-bottom-heading img {
+      width: 140px !important;
+      height: 57px;
+      border-right: unset;
+      margin: 0 auto;
+      padding: 0px 10px;
+    }
+    .banner-bottom-heading {
+      right: 0;
+      display: block;
+      width: unset;
+    }
+    .authenticated-banner-main img {
+      height: 100%;
+    }
+    section.industrt-wide-sec .col {
+      width: 290px;
+      flex: none;
+      padding: 0 10px;
+    }
+    section.industrt-wide-sec .row {
+      flex-wrap: nowrap;
+      overflow: scroll;
+    }
+    .frequently-images-box img {
+      margin: 0 0 15px 0;
+    }
+    .frequently-sec .place-heading {
+      left: 12px;
+      bottom: 21px;
+    }
+    h1 {
+      font-size: 53px;
+      line-height: 74px;
+    }
+    .banner-heading p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .banner-heading {
+      bottom: 45px;
+      left: 66px;
+    }
+    .banner-bottom-nav li {
+      margin: 0 15px !important;
+    }
+    h2 {
+      font-size: 37px;
+    }
+    .travelex-box-one h4 {
+      font-size: 24px;
+      line-height: 34px;
+    }
+    .travelex-box-one span {
+      font-size: 22px;
+    }
+    .travelex-box-one span {
+      font-size: 22px;
+    }
+    .travelex-box-two h3 {
+      font-size: 27px;
+    }
+    .primary-contact span {
+      font-size: 12px;
+    }
+    .primary-contact h5 {
+      font-size: 17px;
+    }
+    .slyer-plan {
+      position: static !important;
+    }
+    .smartflyer-heading {
+      padding-left: 50px;
+      padding-bottom: 50px;
+    }
+    .smartflyer-sec {
+      padding: 50px 0 0 0;
+    }
+    .footer-box p {
+      padding: 0 30px 0 0;
+    }
+    .smal-description {
+      font-size: 16px !important;
+      padding: 0 20px 0 0px;
+    }
+    .ribbon-logo {
+      width: 160px;
+      margin: -40px 0 0 0;
+    }
+    .overview-list li {
+      padding: 0px 30px 0 0;
+    }
+    .banner-bottom-nav ul li a {
+      font-weight: 700;
+      font-size: 12px;
+      min-width: 110px;
+      display: block;
+    }
+    .travelex-logo {
+      width: 200px;
+    }
+    .assest-box-heading p {
+      font-size: 24px;
+      padding: 0 10px 0 0px;
+      line-height: 41px;
+    }
+    .promo-images img {
+      height: 370px;
+      object-fit: cover;
+    }
+    .travelex-logo {
+      width: 160px;
+    }
+    .category-sec p {
+      padding: 0;
+    }
+    .height-img {
+      height: unset;
+    }
+    .banner-bottom-nav ul li a {
+      min-width: 2100px !important;
+    }
+    .banner-bottom-nav ul {
+      justify-content: start;
+      overflow: scroll;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .frequently-sec .place-heading {
+      left: 32px;
+      bottom: 41px;
+    }
+    .hotel-sec h2 {
+      font-size: 40px;
+    }
+    .hotel-sec h3 {
+      font-size: 30px;
+    }
+    sup {
+      font-size: 17px;
+    }
+    .hotel-slide-heading h2 {
+      font-size: 23px;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+      display: none;
+    }
+    .swiper {
+      overflow: scroll;
+    }
+    .swiper.partner1 {
+      padding: 0 0;
+    }
+    .authenticated-banner-main {
+      height: 600px !important;
+    }
+    .authenticated-banner span {
+      width: unset;
+    }
+
+    h1 {
+      font-size: 44px;
+      line-height: 60px;
+    }
+    .banner-heading {
+      bottom: 24px;
+      left: 43px;
+    }
+    .banner-heading p {
+      font-size: 14px;
+      line-height: 8px;
+    }
+    .banner-bottom-nav ul li a {
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .banner-bottom-nav {
+      margin-bottom: 50px;
+    }
+    .col-md-6.travelex-box-two {
+      margin: 60px 0 0 0;
+    }
+    .travelex-section {
+      padding-bottom: 80px;
+    }
+    .smartflyer-heading h3 {
+      font-weight: 300;
+      font-size: 37px;
+      line-height: 61px;
+    }
+    .assests-sec {
+      padding: 40px 0 60px;
+    }
+    .places-sec {
+      padding: 50px 0;
+    }
+    .social-icon {
+      margin: 35px 0 0 0;
+    }
+    h2 {
+      font-size: 33px;
+    }
+    .overview-list {
+      margin: 0 0 30px 0;
+    }
+    .ribbon-logo {
+      margin: 0px 0 0 0;
+    }
+    .places-sec h2 {
+      font-size: 28px;
+    }
+    .aero-logo {
+      width: 160px;
+    }
+    .promo-details h5 {
+      font-size: 23px;
+    }
+    .articals-links {
+      padding: 40px 0 0 0;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .authenticated-banner-main {
+      height: 710px !important;
+    }
+    .banner-bottom-heading {
+      left: 0;
+      text-align: center;
+    }
+    .swiper {
+      margin: 30px 0;
+    }
+    .forget-pass {
+      font-size: 12px;
+      line-height: 14px;
+      margin: -5px 0 0 0;
+      display: block;
+    }
+    .modal-body form label {
+      font-size: 12px;
+    }
+    .hotel-sec h2:after {
+      content: "";
+      width: 40%;
+      height: 1px;
+      position: absolute;
+      color: #1d3c86;
+      background-color: #1d3c86;
+      right: -20px;
+      bottom: 7px;
+      z-index: 9999;
+      display: inline-block;
+    }
+
+    .hotel-sec h2:after {
+      position: relative;
+    }
+    section.banner-sec img {
+      width: 100%;
+      display: block;
+      height: 100%;
+      object-fit: cover;
+    }
+    .banner-heading {
+      bottom: 19px;
+      left: 33px;
+    }
+    .banner-heading p {
+      font-size: 13px;
+      line-height: 21px;
+      margin: 0 0px 15px 0;
+    }
+    section.banner-sec {
+      height: 400px;
+    }
+    h1 {
+      font-size: 34px;
+      line-height: 40px;
+    }
+    .travelex-box h4 {
+      text-align: center;
+    }
+    .travelex-box {
+      padding: 10px 6px;
+      margin: 0 auto;
+    }
+    .travelex-box h4 {
+      font-size: 18px;
+    }
+    .travelex-logo {
+      width: 200px;
+    }
+    .travelex-box-two .row {
+      margin: 30px 0 50px !important;
+    }
+    .smartflyer-heading h3 {
+      font-size: 34px;
+      line-height: 51px;
+    }
+    .smartflyer-heading p {
+      font-size: 14px;
+
+      padding: 0 30px 0 0;
+    }
+    .smartflyer-heading {
+      padding-left: 35px;
+    }
+    .container {
+      padding: 0 25px !important;
+    }
+    .primary-contact span {
+      font-size: 12px;
+      display: block;
+      margin: 0 !important;
+      line-height: 12px;
+    }
+    .navbar-brand img {
+      width: 178px;
+    }
+    footer {
+      padding: 30px 0 80px 0;
+    }
+    .travelex-box-two h3 {
+      font-size: 24px;
+    }
+    .assest-box-heading p {
+      font-size: 21px;
+      line-height: 34px;
+    }
+    .smartflyer-heading h4 {
+      font-size: 20px;
+    }
+    .check-in-main {
+      padding: 40px 45px 0 40px;
+      height: unset;
+    }
+    .img-height-small {
+      height: unset;
+    }
+    .height-img {
+      height: unset;
+    }
+    .check-in-heading span {
+      font-size: 13px;
+    }
+    .check-in-heading h4 {
+      font-size: 22px;
+      margin: 3px 0 29px 0;
+    }
+    .hotel-sec h2 {
+      font-size: 28px;
+      text-align: left !important;
+    }
+    .hotel-sec h3 {
+      margin: 11px 0 0 0;
+    }
+    .hotel-promotion h3 {
+      font-size: 30px;
+    }
+    .hotel-promotion span {
+      font-size: 18px;
+    }
+    .hotel-promotion h3 {
+      margin: 0 0 20px 0;
+    }
+    .frequently-sec img {
+      height: 130px;
+    }
+    section.industrt-wide-sec .col {
+      position: relative;
+    }
+    .industrt-wide-sec .hotel-promotion-heading {
+      padding: 0 0 0 17px;
+      position: absolute;
+      bottom: 16px;
+    }
+    .hotel-promotion-heading span {
+      margin: 0;
+      color: #fff;
+      opacity: 1;
+    }
+    .hotel-promotion-heading h4 {
+      color: #fff;
+      margin: 0px 0 0px 0;
+    }
+    .hotel-promotion .row {
+      flex-wrap: nowrap;
+      overflow: scroll;
+    }
+    .hotel-promotion .col-xxl-4.col-lg-6.mt-4.lg-mt-0 {
+      margin: 0 !important;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    .hotel-promotion .row .d-flex.mb-3 {
+      position: relative;
+      margin: 0 !important;
+    }
+    section.hotel-promotion img {
+      /* width: 100%; */
+      height: 100%;
+      margin: 0 10px 0 0;
+    }
+    .hotel-promotion-heading {
+      padding: 0 0 0 23px;
+      position: absolute;
+      bottom: 20px;
+    }
+    .hotel-promotion-heading {
+      position: absolute;
+      bottom: 10px;
+    }
+    .hotel-promotion-heading h4 {
+      font-size: 17px;
+
+      padding: 0 40px 0px 0px;
+    }
+    .authenticated-banner {
+      transform: translate(0, -78%);
+    }
+    .banner-heading {
+      left: 18px;
+    }
+    .percent-box {
+      padding: 0 20px;
+    }
+  }
