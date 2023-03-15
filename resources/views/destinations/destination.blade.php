@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-md-5 col-12 order-md-0 order-1">
                 <div class="des-img-1">
-                    <img class="img-fluid" src="{{\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[0])}}" alt="">
+                    <img class="img-fluid" src="{{(isset($destination) && isset($destination[0]))?\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[0]) : ''}}" alt="">
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
                 <h2 class="des-title mb-4">Explore {{$destination->title}}</h2>
                 <p class="body-text">{!!$destination->detail  !!}</p>
 
-                <img class="img-fluid des-img-2" src="{{\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[1])}}" alt="">
+                <img class="img-fluid des-img-2" src="{{(isset($destination) && isset($destination[1]))?\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[1]) : ''}}" alt="">
             </div>
         </div>
 
@@ -36,7 +36,7 @@
             <div class="col-md-6 col-12">
                 <img class="img-fluid stamp-img" src="{{asset('assets/images/destinations/stamp.png')}}" alt="">
                 <div class="des-img-3 ">
-                    <img src="{{\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[2])}}" alt="">
+                    <img src="{{(isset($destination) && isset($destination[2]))?\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[2]) : ''}}" alt="">
                 </div>
             </div>
         </div>

@@ -10,15 +10,17 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <li class="nav-item nav-item-custom dropdown me-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{route('destination-main')}}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Destinations
                         </a>
                         <ul class="dropdown-menu dropdown-menu-custom shadow-lg">
-                            <li><a class="dropdown-item destinations-dropdown" href="/destinations/africa.html">Africa</a></li>
-                            <li><a class="dropdown-item" href="/destinations/america.html">Americas</a></li>
-                            <li><a class="dropdown-item" href="/destinations/asia.html">Asia</a></li>
-                            <li><a class="dropdown-item" href="/destinations/caribbean-mexico.html">Carribean + Mexico</a></li>
-                            <li><a class="dropdown-item" href="/destinations/europe.html">Europe</a></li>
+                            @php
+                                $destinations = \App\Models\Destination::all();
+                            @endphp
+
+                            @foreach($destinations as $destination)
+                                <li><a class="dropdown-item destinations-dropdown" href="/destination/{{$destination->title}}">{{$destination->title}}</a></li>
+                            @endforeach
                         </ul>
                     </li>
                     <li class="nav-item nav-item-custom me-2">
@@ -48,7 +50,7 @@
                         </ul>
                     </li>
                     <li class="nav-item nav-item-custom me-2">
-                        <a class="nav-link" href="#">Agents</a>
+                        <a class="nav-link" href="{{route('agents')}}">Agents</a>
                     </li>
                 </ul>
                 <div class="nav-actions align-items-center d-flex">
@@ -96,15 +98,17 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <li class="nav-item nav-item-custom dropdown me-2">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{route('destination-main')}}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Destinations
                         </a>
                         <ul class="dropdown-menu dropdown-menu-custom shadow-lg">
-                            <li><a class="dropdown-item destinations-dropdown" href="/destinations/africa.html">Africa</a></li>
-                            <li><a class="dropdown-item" href="/destinations/america.html">Americas</a></li>
-                            <li><a class="dropdown-item" href="/destinations/asia.html">Asia</a></li>
-                            <li><a class="dropdown-item" href="/destinations/caribbean-mexico.html">Carribean + Mexico</a></li>
-                            <li><a class="dropdown-item" href="/destinations/europe.html">Europe</a></li>
+                            @php
+                                $destinations = \App\Models\Destination::all();
+                            @endphp
+
+                            @foreach($destinations as $destination)
+                                <li><a class="dropdown-item destinations-dropdown" href="/destination/{{$destination->title}}">{{$destination->title}}</a></li>
+                            @endforeach
                         </ul>
                     </li>
                     <li class="nav-item nav-item-custom me-2">
@@ -134,7 +138,7 @@
                         </ul>
                     </li>
                     <li class="nav-item nav-item-custom me-2">
-                        <a class="nav-link" href="#">Agents</a>
+                        <a class="nav-link" href="{{route('agents')}}">Agents</a>
                     </li>
                 </ul>
                 <div class="nav-actions align-items-center d-flex">

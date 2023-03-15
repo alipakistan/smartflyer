@@ -10,6 +10,7 @@ use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
+    public const TravelAgent = 2;
     use HasApiTokens, HasFactory, Notifiable;
 
     /**

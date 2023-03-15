@@ -1,8 +1,13 @@
 <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-custom">
-        <div class="container-fluid px-5 py-4">
+        <div class="container-fluid px-md-5 py-md-4">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid" src="{{asset('assets/images/destinations/logo.svg')}}" alt="">
+            </a>
+            <a href="#" class="d-lg-none d-flex">
+                <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
+                    <img class="img-fluid" src="{{asset('assets/images/destinations/search-icon.svg')}}" alt="" />
+                </button>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -14,11 +19,13 @@
                             Destinations
                         </a>
                         <ul class="dropdown-menu dropdown-menu-custom shadow-lg">
-                            <li><a class="dropdown-item destinations-dropdown" href="/destinations/africa.html">Africa</a></li>
-                            <li><a class="dropdown-item" href="/destinations/america.html">Americas</a></li>
-                            <li><a class="dropdown-item" href="/destinations/asia.html">Asia</a></li>
-                            <li><a class="dropdown-item" href="/destinations/caribbean-mexico.html">Carribean + Mexico</a></li>
-                            <li><a class="dropdown-item" href="/destinations/europe.html">Europe</a></li>
+                            @php
+                                $destinations = \App\Models\Destination::all();
+                            @endphp
+
+                            @foreach($destinations as $destination)
+                             <li><a class="dropdown-item destinations-dropdown" href="/destination/{{$destination->title}}">{{$destination->title}}</a></li>
+                            @endforeach
                         </ul>
                     </li>
                     <li class="nav-item nav-item-custom me-2">
@@ -48,18 +55,19 @@
                         </ul>
                     </li>
                     <li class="nav-item nav-item-custom me-2">
-                        <a class="nav-link" href="#">Agents</a>
+                        <a class="nav-link" href="{{route('agents')}}">Agents</a>
                     </li>
                 </ul>
                 <div class="nav-actions align-items-center d-flex">
-                    <div class="mx-2 d-xxl-block d-none">
+                    <div class="mx-2 d-lg-block d-none">
                         <a href="#">
                             <button class="btn" type="button" data-bs-toggle="modal" data-bs-target="#searchModal">
-                                <img class="img-fluid" src="{{asset('assets/images/search-icon.svg')}}" alt="" />
-                            </button></a>
+                                <img class="img-fluid" src="{{asset('assets/images/destinations/search-icon.svg')}}"  alt="" />
+                            </button>
+                        </a>
                     </div>
-                    <div class="mx-4 d-xxl-block d-none">
-                        <a href="#"><img class="img-fluid" src="{{asset('assets/images/user-icon.svg')}}"  alt="" /></a>
+                    <div class="me-4 d-xxl-block d-none">
+                        <a href="#"><img class="img-fluid" src="{{asset('assets/images/destinations/user-icon.svg')}}" alt="" /></a>
                     </div>
                     <button class="btn btn-primary sm-btn-custom" type="submit">Plan a trip</button>
                 </div>
@@ -67,5 +75,3 @@
         </div>
     </nav>
 </header>
-
-

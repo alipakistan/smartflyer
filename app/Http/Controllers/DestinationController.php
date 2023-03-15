@@ -25,4 +25,8 @@ class DestinationController extends Controller
     public function review(){
         return view('destinations.review');
     }
+
+    public function destination_main(){
+        return view('destinations.destination-main');
+    }
 }

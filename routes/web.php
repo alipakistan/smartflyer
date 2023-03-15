@@ -81,6 +81,8 @@ Route::get('/authenticated-page', function () {
 })->name('authenticated-page');
 
 Route::get('/destination/{slug}', [DestinationController::class,'index'])->name('destination');
+Route::get('/destination-main', [DestinationController::class,'destination_main'])->name('destination-main');
 Route::get('/review', [DestinationController::class,'review'])->name('review');
 Route::get('/agents', [AgentController::class,'agents'])->name('agents');
+Route::get('/agent/{id}', [AgentController::class,'agent'])->name('agent');
 

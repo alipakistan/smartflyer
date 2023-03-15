@@ -44,6 +44,7 @@ body{
 .custom-theme-btn{
   outline: none;
   height: 56px !important;
+  width: auto;
   text-transform: uppercase;
   font-family: var(--font-tradeGothic);
   font-size: 14px;
@@ -470,11 +471,15 @@ color: rgba(255, 255, 255, 1);
 }
 
 /*03-11-2023 Sat - Start*/
+.container-modal-custom{
+  position: relative;
+  z-index: 1000 !important;
 
+}
 .modal-custom{
   background-color: var(--main-blue-color) !important;
-  z-index: 10000 !important;
   padding: 20% 5% 0% 5%!important;
+  color: var(--light-color);
 }
 
 .modal-custom-input label{
@@ -489,11 +494,14 @@ color: rgba(255, 255, 255, 1);
   font-family: var(--font-canela) !important;
   font-size: 70px !important;
   font-weight: 100 !important;
-  color: #D6D6D6 !important;
+  color: var(--light-color);
   border-color: var(--light-color) !important;
   background: transparent;
 }
 
+.modal-custom-input input::placeholder{
+  color: var(--light-color);
+}
 .modal-custom-input input:focus{
   font-family: var(--font-canela) !important;
   font-size: 70px !important;
@@ -501,6 +509,7 @@ color: rgba(255, 255, 255, 1);
   background: transparent;
   outline: none !important;
   box-shadow: none !important;
+  color: var(--light-color);
   border-bottom: 2px solid var(--light-color) !important;
 }
 
@@ -512,7 +521,12 @@ color: rgba(255, 255, 255, 1);
   font-weight: lighter;
 }
 
-cust-search-title button{
+.cust-search-title button{
+  color: var(--light-color) !important;
+}
+
+
+.custom-close{
   color: var(--light-color) !important;
 }
 
@@ -646,9 +660,20 @@ cust-search-title button{
   position: absolute;
 }
 
+.agent-location a{
+  font-family: var(--font-tradeGothic);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--main-blue-color);
+}
+
 
 
 /*03-11-2023 Sat - end*/
+
+
 
 
 
@@ -844,6 +869,113 @@ cust-search-title button{
 
 /*13-03-2023 start*/
 
+
+/*14-03-2023 - start*/
+
+.circle-icon{
+  width: 16px;
+  height: 16px;
+  background-color: var(--main-blue-color);
+  opacity: 50%;
+  border-radius: 8px;
+}
+
+.stories-hero-right {
+  padding: 300px;
+}
+
+.agent-cover img{
+  width: 100%;
+  object-fit: cover;
+  height: 60vh;
+}
+
+.agent-profile{
+  position: relative;
+  margin-top: -100px;
+}
+
+.agent-profile img{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 10px solid var(--light-color);
+}
+
+.agent-profile h2{
+  font-size: 40px;
+  font-weight: 300;
+  color: var(--dark-color);
+}
+
+.agent-profile h5{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--body-text-color);
+  font-family: var(--font-tradeGothic);
+  opacity: 50%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.agent-specialities a{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--main-blue-color);
+  font-family: var(--font-tradeGothic);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+
+.agent-description h3{
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--dark-color);
+}
+
+.agent-description{
+  line-height: 24px;
+  font-weight: 300px;
+}
+
+.agent-description h5{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--main-blue-color);
+  font-family: var(--font-tradeGothic);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+
+}
+
+
+.agent-testimonial p{
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+
+.agent-testimonial span{
+  font-size: 24px;
+  line-height: 40px;
+  font-style: oblique;
+}
+
+.agent-travel-tip p{
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+/*14-03-2023 - end*/
+
+
 /*owel css/
 
 /**
@@ -924,6 +1056,18 @@ cust-search-title button{
 
 
   @media only screen and (max-width: 768px) {
+
+
+    
+.agent-cover img{
+  width: 100%;
+  object-fit: cover;
+  height: 50vh;
+}
+
+    .africa-map img, .america-map img, .asia-map img, .europe-map img, .carribean-map img{
+      margin-top: 120px;
+      }
     
   
     .destination-banner-map img{
@@ -973,7 +1117,64 @@ cust-search-title button{
   
   
   @media only screen and (max-width: 576px) {
+
     
+.agent-cover img{
+  width: 100%;
+  object-fit: cover;
+  height: 30vh;
+}
+    
+    .modal-custom{
+      background-color: var(--main-blue-color) !important;
+      padding: 20% 5% 0% 5%!important;
+      color: var(--light-color);
+    }
+    
+    .modal-custom-input label{
+      color: var(--light-color);
+      font-size: 32px;
+    }
+    
+    .modal-custom-input input{
+      text-align: center;
+      font-size: 32px !important;
+      font-weight: 100 !important;
+    }
+    
+    .modal-custom-input input:focus{
+      text-align: center;
+      font-size: 24px !important;
+      font-weight: 100 !important;
+    }
+    
+    
+    .cust-search-title{
+      font-size: 24px !important;
+    }
+    
+
+    .africa-map img, .america-map img, .asia-map img, .europe-map img, .carribean-map img{
+      width: 100%;
+      }
+
+
+      .meet-advisor h2{
+        font-size: 32px;
+      }
+    .agent-card img{
+      width: 60px;
+      height: 60px;
+    }
+
+    .agent-card h4{
+      font-size: 16px;
+    }
+
+    .agent-card span{
+      font-size: 12px;
+    }
+
     .destination-banner-map img{
       margin-top: 70px;
       height: 250px;
