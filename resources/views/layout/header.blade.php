@@ -14,7 +14,7 @@
                             Destinations
                         </a>
                         <ul class="dropdown-menu dropdown-menu-custom shadow-lg">
-                            <li><a class="dropdown-item destinations-dropdown" href="/destinations/africa.html">Africa</a></li>
+                            <li><a class="dropdown-item destinations-dropdown" href="{{route('destination','Africa')}}">Africa</a></li>
                             <li><a class="dropdown-item" href="/destinations/america.html">Americas</a></li>
                             <li><a class="dropdown-item" href="/destinations/asia.html">Asia</a></li>
                             <li><a class="dropdown-item" href="/destinations/caribbean-mexico.html">Carribean + Mexico</a></li>

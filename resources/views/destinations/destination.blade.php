@@ -1,11 +1,13 @@
 @extends('layout.template')
 
 @section('content')
-<section class="destination-header">
+<section class="destination-header" 
+style="background-image: url({{asset('assets/images/destinations/africa.jpg')}});
+background-position: center;background-size: cover;background-repeat: no-repeat;">
     <div class="container">
         <div class="row py-5 justify-content-center">
-            <div class="col-12  africa-map ">
-                <img class="mx-auto d-block" src="{{\Illuminate\Support\Facades\Storage::disk('s3')->url($destination->header_image)}}" alt="africa map">
+            <div class="col-12 africa-map ">
+                <img class="mx-auto d-block" src="{{ $destination ? \Illuminate\Support\Facades\Storage::disk('s3')->url($destination->header_image) : asset('assets/images/destinations/africa-map.svg')}}" alt="africa map">
             </div>
             <div class="col-12 mt-5 text-center ">
                 <p class="destination-title">{{$destination->title}}</p>
@@ -20,7 +22,7 @@
         <div class="row">
             <div class="col-md-5 col-12 order-md-0 order-1">
                 <div class="des-img-1">
-                    <img class="img-fluid" src="{{\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[0])}}" alt="">
+                    <img class="img-fluid" src="{{ $destination_images ? \Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[1]) : asset('assets/images/destinations/africa-morroco.jpg') }}" alt="">
                 </div>
             </div>
 
@@ -28,7 +30,7 @@
                 <h2 class="des-title mb-4">Explore {{$destination->title}}</h2>
                 <p class="body-text">{!!$destination->detail  !!}</p>
 
-                <img class="img-fluid des-img-2" src="{{\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[1])}}" alt="">
+                <img class="img-fluid des-img-2" src="{{ $destination_images ? \Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[2]) : asset('assets/images/destinations/africa-namib-desert.jpg') }}" alt="">
             </div>
         </div>
 
@@ -36,7 +38,7 @@
             <div class="col-md-6 col-12">
                 <img class="img-fluid stamp-img" src="{{asset('assets/images/destinations/stamp.png')}}" alt="">
                 <div class="des-img-3 ">
-                    <img src="{{\Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[2])}}" alt="">
+                    <img src="{{ $destination_images ? \Illuminate\Support\Facades\Storage::disk('s3')->url($destination_images[0]) : asset('assets/images/destinations/africa-3.jpg') }}" alt="">
                 </div>
             </div>
         </div>
